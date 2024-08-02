@@ -1,1 +1,61 @@
-/* Write your CSS here */
+.similar-product-list-item-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 0;
+}
+
+.similar-product-list-item-image {
+  width: 100%;
+  border-radius: 12px;
+}
+
+.similar-product-list-item-heading {
+  font-size: 30px;
+  color: #171f46;
+}
+
+.similar-product-list-item-brand {
+  font-size: 25px;
+  color: #616e7c;
+}
+
+.similar-product-list-item-rating-price-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.similar-product-list-item-price {
+  color: #171f46;
+  font-weight: 700;
+}
+
+.similar-product-list-item-rating-container {
+  background-color: #3b82f6;
+  padding: 2px 20px 2px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 20px;
+  border-radius: 10px;
+  width: 100px;
+  height: 40px;
+}
+
+.similar-product-list-item-rating-star-container {
+  display: flex;
+  align-items: center;
+}
+
+.similar-product-list-item-rating-star {
+  width: 25px;
+}
+
+@media screen and (orientation: landscape) {
+  .similar-product-list-item-container {
+    width: 20vw;
+    margin: 20px;
+  }
+}

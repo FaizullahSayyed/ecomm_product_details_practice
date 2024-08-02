@@ -1,1 +1,114 @@
-/* Write your CSS here */
+.product-details-bg-container {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  font-family: Roboto;
+}
+
+.product-image-container {
+  display: flex;
+  justify-content: center;
+}
+
+.product-image {
+  width: 100%;
+  border-radius: 12px;
+}
+
+.title-heading {
+  color: #616e7c;
+  /* font-size: 20px; */
+}
+
+.product-price {
+  color: #171f46;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.rating-review-container {
+  display: flex;
+}
+
+.rating-container {
+  color: #ffffff;
+  font-weight: 700;
+  height: 50px;
+}
+
+.total-rating {
+  margin-right: 5px;
+}
+
+.total-reviews {
+  margin-left: 10px;
+}
+
+.description,
+.stock-container {
+  color: #616e7c;
+}
+
+.blue-text {
+  color: #171f46;
+  font-size: 23px;
+  font-weight: 700;
+  margin-right: 10px;
+}
+
+.quantity-container {
+  display: flex;
+  width: 120px;
+  justify-content: space-between;
+}
+
+.quantity-button {
+  background-color: transparent;
+  border: 0;
+}
+
+.cart-button {
+  background-color: #3b82f6;
+  color: #ffffff;
+  font-weight: 700;
+  border: 0;
+  padding: 15px;
+  border-radius: 15px;
+  margin-top: 20px;
+}
+
+.similar-products-heading {
+  color: #616e7c;
+}
+.similar-products-container {
+  padding: 0;
+}
+
+.failed-view-image {
+  width: 100%;
+}
+
+@media screen and (orientation: landscape) {
+  .product-details-bg-container {
+    flex-direction: column;
+    width: 100vw;
+  }
+  .product-image-container {
+    min-width: 40%;
+    margin: 15px;
+  }
+
+  .product-details-inner-container {
+    display: flex;
+  }
+
+  .similar-products-container {
+    display: flex;
+
+    flex-direction: column;
+  }
+
+  .similar-products-list-container {
+    display: flex;
+  }
+}
